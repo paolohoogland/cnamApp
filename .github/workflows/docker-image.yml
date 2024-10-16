@@ -3,11 +3,11 @@ name: Build and publish
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: emmamau/cnamApp
+  IMAGE_NAME: phoogland/cnamApp
 
 jobs:
   build-and-publish:
