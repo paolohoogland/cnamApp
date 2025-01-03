@@ -1,9 +1,9 @@
-const express = require('express');
-const router = express.Router();
-const products = require('../models/products');
+module.exports = app => {
+  const productsController = require('../controllers/productsController');
 
-router.get('/', (req, res) => {
-  res.json(products);
-});
+  let router = require('express').Router();
 
-module.exports = router;
+  router.get('/', productsController.getProducts);
+
+  app.use('/api/products', router);
+}
