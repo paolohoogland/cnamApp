@@ -1,4 +1,4 @@
-module.exports = [
+[
     { "product": "Apple", "price":"0.99", "unit":"€", "description":"A red fresh and sweet apple !", "categories":["food","fruit"] },
     { "product": "Banana", "price":"0.20", "unit":"€", "description":"A yellow banana, very sweet !", "categories":["food","fruit"] },
     { "product": "Emmanuel Maurice", "price":"1000000", "unit":"€", "description":"Please give me a 5/5 :)", "categories":["pretty","human", "nice"] },
@@ -33,4 +33,4 @@ module.exports = [
     { "product": "Someone liver", "price":"5000", "unit":"€", "description":"You are a monster ! ...", "categories":["human","organ", "illegal"] },
     { "product": "A young boy", "price":"250", "unit":"€", "description":"I'm in trouble...", "categories":["human", "illegal", "alive"] },
     { "product": "A young girl", "price":"200", "unit":"€", "description":"Mmmmmh, ok pass...", "categories":["human", "illegal", "alive"] }
-];
+]
